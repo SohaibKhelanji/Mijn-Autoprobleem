@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="all">
+    <meta name="language" content="dutch">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name= "Author" content="Sohaib Khelanji">
+    <meta name="description" content="Voor auto's die weten wat werken is">
+    <meta name="keywords" content="Mijn auotproblemen, autoproblemen, pech, problemen, auto, garage, reparatie, autogarage">
+    <meta name="copyright" content="Mijn Autoproblemen BV.">
+    <link rel="icon" href="Afbeeldingen/websiteicoon.png">
+    <link rel="stylesheet" href="Css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <title>Mijn autoprobleem - Zelfdiagnose</title>
+ </head>
+
+ <body>
+    <div id="mainnavigation">
+        <nav>
+            <Ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="zelfdiagnose.html">Zelfdiagnose</a></li>
+                <li><a href="garages.html">Garages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </Ul>
+         </nav>
+        <div id="navigationlogo">
+            <a href="index.html"><img src="Afbeeldingen/websitenavbarlogo.png" alt="Website logo"></a>
+        </div>
+        <div id="navsocial">
+            <a href="https://www.facebook.com/"  target="blank"><img src="Afbeeldingen/facebookicon.png" alt="Facebook icoontje"></a>
+            <a href="https://www.twitter.com/"  target="blank"><img src="Afbeeldingen/twittericon.png" alt="Twitter icoontje"></a>
+            <a href="https://www.instagram.com/" target="blank"><img src="Afbeeldingen/instagramicon.png" alt="Instagram icoontje"></a>
+        </div>
+    </div>
+    <div class="paginanaam">Zelfdiagnose</div>
+
+    <div id="zelfdiagnose">
+
+    <h3 id="vraag">....</h3>
+        <button id="vraag_ja" onclick="nextQuestion(1)">Ja</button>
+        <button id="vraag_nee" onclick="nextQuestion(2)">Nee</button><br>
+        <button id="vraag_opnieuw" onclick="nextQuestion(0)">Start vragen opnieuw</button>
+        <button id="vraag_contact" onclick="window.location.href='garages.html'">Neem contact op</button>
+    </div>
+    <script src="Javascript/script.js"></script> 
+   
+
+
+    <footer>
+        <p>Copyright &copy; 2021 <i>Mijn autoprobleem</i> alle rechten voorbehouden.</p>
+         <div id="footerlogo">
+                <img src="Afbeeldingen/websitelogo.png" alt="website logo" style="width:100px;">
+         </div>      
+    </footer>
+ </body>
+</html>
